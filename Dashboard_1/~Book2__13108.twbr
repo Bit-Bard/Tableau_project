@@ -1,0 +1,1108 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0711.1636                               -->
+<workbook original-version='18.1' source-build='2024.2.1 (20242.24.0711.1636)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <CascadingFilters />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Dataset_1[Cleaned]' inline='true' name='federated.18h3b8f1e1hoz612us7fa0qcrkbv' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Dataset_1[Cleaned]' name='textscan.1rs00qw1hj8xry1cwzo8a0qecab3'>
+            <connection class='textscan' directory='C:/Users/dhruv/OneDrive/Documents/Desktop/Dashboards_prac/Dashboards_1' filename='Dataset_1[Cleaned].csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='Dataset_2[Cleaned]' name='textscan.0ogq7v30m8cuqb1212rzj0334j41'>
+            <connection class='textscan' directory='C:/Users/dhruv/OneDrive/Documents/Desktop/Dashboards_prac/Dashboards_1' filename='Dataset_2[Cleaned].csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1rs00qw1hj8xry1cwzo8a0qecab3' name='Dataset_1[Cleaned].csv' table='[Dataset_1[Cleaned]]#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Country' ordinal='0' />
+            <column datatype='string' name='City' ordinal='1' />
+            <column datatype='integer' name='AQI Value' ordinal='2' />
+            <column datatype='string' name='AQI Category' ordinal='3' />
+            <column datatype='integer' name='CO AQI Value' ordinal='4' />
+            <column datatype='string' name='CO AQI Category' ordinal='5' />
+            <column datatype='integer' name='Ozone AQI Value' ordinal='6' />
+            <column datatype='string' name='Ozone AQI Category' ordinal='7' />
+            <column datatype='integer' name='NO2 AQI Value' ordinal='8' />
+            <column datatype='string' name='NO2 AQI Category' ordinal='9' />
+            <column datatype='integer' name='PM2.5 AQI Value' ordinal='10' />
+            <column datatype='string' name='PM2.5 AQI Category' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1rs00qw1hj8xry1cwzo8a0qecab3' name='Dataset_1[Cleaned].csv' table='[Dataset_1[Cleaned]]#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Country' ordinal='0' />
+            <column datatype='string' name='City' ordinal='1' />
+            <column datatype='integer' name='AQI Value' ordinal='2' />
+            <column datatype='string' name='AQI Category' ordinal='3' />
+            <column datatype='integer' name='CO AQI Value' ordinal='4' />
+            <column datatype='string' name='CO AQI Category' ordinal='5' />
+            <column datatype='integer' name='Ozone AQI Value' ordinal='6' />
+            <column datatype='string' name='Ozone AQI Category' ordinal='7' />
+            <column datatype='integer' name='NO2 AQI Value' ordinal='8' />
+            <column datatype='string' name='NO2 AQI Category' ordinal='9' />
+            <column datatype='integer' name='PM2.5 AQI Value' ordinal='10' />
+            <column datatype='string' name='PM2.5 AQI Category' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Dataset_1[Cleaned]].csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Dataset_1[Cleaned]].csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset_1[Cleaned]].csv_2BA7C1B47EF645E08653B3EE885C2D57]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[Dataset_1[Cleaned]].csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset_1[Cleaned]].csv_2BA7C1B47EF645E08653B3EE885C2D57]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AQI Value</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AQI Value]</local-name>
+            <parent-name>[Dataset_1[Cleaned]].csv]</parent-name>
+            <remote-alias>AQI Value</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset_1[Cleaned]].csv_2BA7C1B47EF645E08653B3EE885C2D57]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AQI Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AQI Category]</local-name>
+            <parent-name>[Dataset_1[Cleaned]].csv]</parent-name>
+            <remote-alias>AQI Category</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset_1[Cleaned]].csv_2BA7C1B47EF645E08653B3EE885C2D57]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CO AQI Value</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CO AQI Value]</local-name>
+            <parent-name>[Dataset_1[Cleaned]].csv]</parent-name>
+            <remote-alias>CO AQI Value</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset_1[Cleaned]].csv_2BA7C1B47EF645E08653B3EE885C2D57]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CO AQI Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CO AQI Category]</local-name>
+            <parent-name>[Dataset_1[Cleaned]].csv]</parent-name>
+            <remote-alias>CO AQI Category</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset_1[Cleaned]].csv_2BA7C1B47EF645E08653B3EE885C2D57]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ozone AQI Value</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ozone AQI Value]</local-name>
+            <parent-name>[Dataset_1[Cleaned]].csv]</parent-name>
+            <remote-alias>Ozone AQI Value</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset_1[Cleaned]].csv_2BA7C1B47EF645E08653B3EE885C2D57]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ozone AQI Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Ozone AQI Category]</local-name>
+            <parent-name>[Dataset_1[Cleaned]].csv]</parent-name>
+            <remote-alias>Ozone AQI Category</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset_1[Cleaned]].csv_2BA7C1B47EF645E08653B3EE885C2D57]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NO2 AQI Value</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NO2 AQI Value]</local-name>
+            <parent-name>[Dataset_1[Cleaned]].csv]</parent-name>
+            <remote-alias>NO2 AQI Value</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset_1[Cleaned]].csv_2BA7C1B47EF645E08653B3EE885C2D57]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NO2 AQI Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NO2 AQI Category]</local-name>
+            <parent-name>[Dataset_1[Cleaned]].csv]</parent-name>
+            <remote-alias>NO2 AQI Category</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset_1[Cleaned]].csv_2BA7C1B47EF645E08653B3EE885C2D57]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PM2.5 AQI Value</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PM2.5 AQI Value]</local-name>
+            <parent-name>[Dataset_1[Cleaned]].csv]</parent-name>
+            <remote-alias>PM2.5 AQI Value</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset_1[Cleaned]].csv_2BA7C1B47EF645E08653B3EE885C2D57]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PM2.5 AQI Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PM2.5 AQI Category]</local-name>
+            <parent-name>[Dataset_1[Cleaned]].csv]</parent-name>
+            <remote-alias>PM2.5 AQI Category</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset_1[Cleaned]].csv_2BA7C1B47EF645E08653B3EE885C2D57]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='AQI Category1' datatype='string' name='[AQI Category]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[CO AQI Value]' role='measure' type='quantitative' />
+      <column caption='AQI Category field' datatype='string' name='[Calculation_1443966697396056064]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [AQI Value] &lt;= 50 THEN &quot;Good&quot;&#13;&#10;ELSEIF [AQI Value]&lt;= 100 THEN &quot;Moderate&quot;&#13;&#10;ELSEIF [AQI Value]  &lt;= 150 THEN &quot;Unhealthy for Sensitive Groups&quot;&#13;&#10;ELSEIF [AQI Value]&lt;= 200 THEN &quot;Unhealthy&quot;&#13;&#10;ELSEIF [AQI Value]&lt;= 300 THEN &quot;Very Unhealthy&quot;&#13;&#10;ELSE &quot;Hazardous&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Calculation2' datatype='real' name='[Calculation_922393566302932992]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='' />
+      </column>
+      <column caption='Calculation3' datatype='real' name='[Calculation_922393566302986241]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='' />
+      </column>
+      <column caption='City1' datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Country1' datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='integer' name='[NO2 AQI Value]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Ozone AQI Value]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[PM2.5 AQI Value]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Dataset_1[Cleaned].csv' datatype='table' name='[__tableau_internal_object_id__].[Dataset_1[Cleaned]].csv_2BA7C1B47EF645E08653B3EE885C2D57]' role='measure' type='quantitative' />
+      <column-instance column='[AQI Category]' derivation='None' name='[none:AQI Category:nk]' pivot='key' type='nominal' />
+      <column-instance column='[CO AQI Value]' derivation='Sum' name='[sum:CO AQI Value:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[NO2 AQI Value]' derivation='Sum' name='[sum:NO2 AQI Value:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Ozone AQI Value]' derivation='Sum' name='[sum:Ozone AQI Value:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[PM2.5 AQI Value]' derivation='Sum' name='[sum:PM2.5 AQI Value:qk]' pivot='key' type='quantitative' />
+      <drill-paths>
+        <drill-path name='Country, City'>
+          <field>[Country]</field>
+          <field>[City]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:AQI Category:nk]' palette='red_10_0' type='palette'>
+            <map to='#ae123a'>
+              <bucket>&quot;Very Unhealthy&quot;</bucket>
+            </map>
+            <map to='#d2283d'>
+              <bucket>&quot;Unhealthy for Sensitive Groups&quot;</bucket>
+            </map>
+            <map to='#eb4c48'>
+              <bucket>&quot;Unhealthy&quot;</bucket>
+            </map>
+            <map to='#f67561'>
+              <bucket>&quot;Moderate&quot;</bucket>
+            </map>
+            <map to='#fc9b87'>
+              <bucket>&quot;Hazardous&quot;</bucket>
+            </map>
+            <map to='#ffbeb2'>
+              <bucket>&quot;Good&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[sum:CO AQI Value:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[sum:Ozone AQI Value:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.18h3b8f1e1hoz612us7fa0qcrkbv]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[sum:PM2.5 AQI Value:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[sum:NO2 AQI Value:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Country' />
+        <field-sort-custom-order field='City' />
+        <field-sort-custom-order field='AQI Value' />
+        <field-sort-custom-order field='AQI Category' />
+        <field-sort-custom-order field='CO AQI Value' />
+        <field-sort-custom-order field='CO AQI Category' />
+        <field-sort-custom-order field='Calculation_1443966697396056064' />
+        <field-sort-custom-order field='Ozone AQI Value' />
+        <field-sort-custom-order field='Ozone AQI Category' />
+        <field-sort-custom-order field='NO2 AQI Value' />
+        <field-sort-custom-order field='NO2 AQI Category' />
+        <field-sort-custom-order field='PM2.5 AQI Value' />
+        <field-sort-custom-order field='PM2.5 AQI Category' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Dataset_1[Cleaned].csv' id='Dataset_1[Cleaned].csv_2BA7C1B47EF645E08653B3EE885C2D57'>
+            <properties context=''>
+              <relation connection='textscan.1rs00qw1hj8xry1cwzo8a0qecab3' name='Dataset_1[Cleaned].csv' table='[Dataset_1[Cleaned]]#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Country' ordinal='0' />
+                  <column datatype='string' name='City' ordinal='1' />
+                  <column datatype='integer' name='AQI Value' ordinal='2' />
+                  <column datatype='string' name='AQI Category' ordinal='3' />
+                  <column datatype='integer' name='CO AQI Value' ordinal='4' />
+                  <column datatype='string' name='CO AQI Category' ordinal='5' />
+                  <column datatype='integer' name='Ozone AQI Value' ordinal='6' />
+                  <column datatype='string' name='Ozone AQI Category' ordinal='7' />
+                  <column datatype='integer' name='NO2 AQI Value' ordinal='8' />
+                  <column datatype='string' name='NO2 AQI Category' ordinal='9' />
+                  <column datatype='integer' name='PM2.5 AQI Value' ordinal='10' />
+                  <column datatype='string' name='PM2.5 AQI Category' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Dataset_2[Cleaned]' inline='true' name='federated.04c3sx41924gs01foobm00ks4eay' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Dataset_2[Cleaned]' name='textscan.1k5pbcl0inef3x10tzi2g0ly7phb'>
+            <connection class='textscan' directory='C:/Users/dhruv/OneDrive/Documents/Desktop/Dashboards_prac/Dashboards_1' filename='Dataset_2[Cleaned].csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1k5pbcl0inef3x10tzi2g0ly7phb' name='Dataset_2[Cleaned].csv' table='[Dataset_2[Cleaned]]#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Country Code' ordinal='0' />
+            <column datatype='string' name='City' ordinal='1' />
+            <column datatype='string' name='Location' ordinal='2' />
+            <column datatype='string' name='Coordinates' ordinal='3' />
+            <column datatype='string' name='Pollutant' ordinal='4' />
+            <column datatype='string' name='Source Name' ordinal='5' />
+            <column datatype='string' name='Unit' ordinal='6' />
+            <column datatype='real' name='Value' ordinal='7' />
+            <column datatype='string' name='Last Updated' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1k5pbcl0inef3x10tzi2g0ly7phb' name='Dataset_2[Cleaned].csv' table='[Dataset_2[Cleaned]]#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Country Code' ordinal='0' />
+            <column datatype='string' name='City' ordinal='1' />
+            <column datatype='string' name='Location' ordinal='2' />
+            <column datatype='string' name='Coordinates' ordinal='3' />
+            <column datatype='string' name='Pollutant' ordinal='4' />
+            <column datatype='string' name='Source Name' ordinal='5' />
+            <column datatype='string' name='Unit' ordinal='6' />
+            <column datatype='real' name='Value' ordinal='7' />
+            <column datatype='string' name='Last Updated' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Dataset_2[Cleaned]].csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country Code]</local-name>
+            <parent-name>[Dataset_2[Cleaned]].csv]</parent-name>
+            <remote-alias>Country Code</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset_2[Cleaned]].csv_6DEA6FE8814D4C55AADCE7F9A2553A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[Dataset_2[Cleaned]].csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset_2[Cleaned]].csv_6DEA6FE8814D4C55AADCE7F9A2553A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[Dataset_2[Cleaned]].csv]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset_2[Cleaned]].csv_6DEA6FE8814D4C55AADCE7F9A2553A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Coordinates</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Coordinates]</local-name>
+            <parent-name>[Dataset_2[Cleaned]].csv]</parent-name>
+            <remote-alias>Coordinates</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset_2[Cleaned]].csv_6DEA6FE8814D4C55AADCE7F9A2553A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pollutant</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pollutant]</local-name>
+            <parent-name>[Dataset_2[Cleaned]].csv]</parent-name>
+            <remote-alias>Pollutant</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset_2[Cleaned]].csv_6DEA6FE8814D4C55AADCE7F9A2553A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Source Name]</local-name>
+            <parent-name>[Dataset_2[Cleaned]].csv]</parent-name>
+            <remote-alias>Source Name</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset_2[Cleaned]].csv_6DEA6FE8814D4C55AADCE7F9A2553A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Unit]</local-name>
+            <parent-name>[Dataset_2[Cleaned]].csv]</parent-name>
+            <remote-alias>Unit</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset_2[Cleaned]].csv_6DEA6FE8814D4C55AADCE7F9A2553A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Value]</local-name>
+            <parent-name>[Dataset_2[Cleaned]].csv]</parent-name>
+            <remote-alias>Value</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset_2[Cleaned]].csv_6DEA6FE8814D4C55AADCE7F9A2553A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Last Updated</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Last Updated]</local-name>
+            <parent-name>[Dataset_2[Cleaned]].csv]</parent-name>
+            <remote-alias>Last Updated</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataset_2[Cleaned]].csv_6DEA6FE8814D4C55AADCE7F9A2553A39]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Dataset_2[Cleaned].csv' datatype='table' name='[__tableau_internal_object_id__].[Dataset_2[Cleaned]].csv_6DEA6FE8814D4C55AADCE7F9A2553A39]' role='measure' type='quantitative' />
+      <drill-paths>
+        <drill-path name='Country Code, City'>
+          <field>[Country Code]</field>
+          <field>[City]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Dataset_2[Cleaned].csv' id='Dataset_2[Cleaned].csv_6DEA6FE8814D4C55AADCE7F9A2553A39'>
+            <properties context=''>
+              <relation connection='textscan.1k5pbcl0inef3x10tzi2g0ly7phb' name='Dataset_2[Cleaned].csv' table='[Dataset_2[Cleaned]]#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Country Code' ordinal='0' />
+                  <column datatype='string' name='City' ordinal='1' />
+                  <column datatype='string' name='Location' ordinal='2' />
+                  <column datatype='string' name='Coordinates' ordinal='3' />
+                  <column datatype='string' name='Pollutant' ordinal='4' />
+                  <column datatype='string' name='Source Name' ordinal='5' />
+                  <column datatype='string' name='Unit' ordinal='6' />
+                  <column datatype='real' name='Value' ordinal='7' />
+                  <column datatype='string' name='Last Updated' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='AQI Distributed Chart'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>AQI Distribution&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataset_1[Cleaned]' name='federated.18h3b8f1e1hoz612us7fa0qcrkbv' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18h3b8f1e1hoz612us7fa0qcrkbv'>
+            <column caption='AQI Category1' datatype='string' name='[AQI Category]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[AQI Value]' role='measure' type='quantitative' />
+            <column-instance column='[AQI Category]' derivation='None' name='[none:AQI Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[AQI Value]' derivation='Sum' name='[sum:AQI Value:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[none:AQI Category:nk]' />
+              <wedge-size column='[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[sum:AQI Value:qk]' />
+              <text column='[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[none:AQI Category:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='2' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3D72FEB6-2413-43F5-99D6-683F99A9C8DD}' />
+    </worksheet>
+    <worksheet name='City-wise Pollutant Concentration'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataset_1[Cleaned]' name='federated.18h3b8f1e1hoz612us7fa0qcrkbv' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18h3b8f1e1hoz612us7fa0qcrkbv'>
+            <column caption='AQI Category1' datatype='string' name='[AQI Category]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[AQI Value]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[CO AQI Value]' role='measure' type='quantitative' />
+            <column caption='City1' datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='integer' name='[NO2 AQI Value]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Ozone AQI Value]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[PM2.5 AQI Value]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='Dataset_1[Cleaned].csv' datatype='table' name='[__tableau_internal_object_id__].[Dataset_1[Cleaned]].csv_2BA7C1B47EF645E08653B3EE885C2D57]' role='measure' type='quantitative' />
+            <column-instance column='[AQI Category]' derivation='None' name='[none:AQI Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[AQI Value]' derivation='Sum' name='[sum:AQI Value:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[CO AQI Value]' derivation='Sum' name='[sum:CO AQI Value:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NO2 AQI Value]' derivation='Sum' name='[sum:NO2 AQI Value:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Ozone AQI Value]' derivation='Sum' name='[sum:Ozone AQI Value:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PM2.5 AQI Value]' derivation='Sum' name='[sum:PM2.5 AQI Value:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[:Measure Names]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[sum:AQI Value:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[sum:CO AQI Value:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[sum:NO2 AQI Value:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[sum:Ozone AQI Value:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[sum:PM2.5 AQI Value:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[sum:PM2.5 AQI Value:qk]&quot;</bucket>
+              <bucket>&quot;[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[sum:Ozone AQI Value:qk]&quot;</bucket>
+              <bucket>&quot;[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[sum:NO2 AQI Value:qk]&quot;</bucket>
+              <bucket>&quot;[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[sum:CO AQI Value:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[none:City:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([__tableau_internal_object_id__].[Dataset_1[Cleaned]].csv_2BA7C1B47EF645E08653B3EE885C2D57])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:City:nk]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[none:City:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>%null%</bucket>
+              <bucket>&quot;Aalen&quot;</bucket>
+              <bucket>&quot;Aachen&quot;</bucket>
+              <bucket>&quot;Aalst&quot;</bucket>
+              <bucket>&quot;Aabenraa&quot;</bucket>
+              <bucket>&quot;Aalsmeer&quot;</bucket>
+              <bucket>&quot;Aalborg&quot;</bucket>
+              <bucket>&quot;Aalburg&quot;</bucket>
+              <bucket>&quot;Aalten&quot;</bucket>
+              <bucket>&quot;A Coruna&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[none:City:nk]</column>
+            <column>[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='height' field='[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[none:City:nk]' value='22' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[none:AQI Category:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[Multiple Values]</rows>
+        <cols>([federated.18h3b8f1e1hoz612us7fa0qcrkbv].[none:AQI Category:nk] / ([federated.18h3b8f1e1hoz612us7fa0qcrkbv].[none:City:nk] / [federated.18h3b8f1e1hoz612us7fa0qcrkbv].[:Measure Names]))</cols>
+      </table>
+      <simple-id uuid='{FACEA4F7-8CA4-4888-A890-3DEADC8BFF13}' />
+    </worksheet>
+    <worksheet name='Global AQI Map'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataset_1[Cleaned]' name='federated.18h3b8f1e1hoz612us7fa0qcrkbv' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.18h3b8f1e1hoz612us7fa0qcrkbv'>
+            <column datatype='integer' name='[AQI Value]' role='measure' type='quantitative' />
+            <column caption='City1' datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='Country1' datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[AQI Value]' derivation='Sum' name='[sum:AQI Value:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[sum:AQI Value:qk]' num-steps='7' palette='red_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[none:Country:nk]' />
+              <lod column='[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[none:City:nk]' />
+              <color column='[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[sum:AQI Value:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[Latitude (generated)]</rows>
+        <cols>[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{78516D0F-F67D-40A0-8752-0989EA7F7917}' />
+    </worksheet>
+    <worksheet name='Top 10 Most Polluted Cities'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataset_1[Cleaned]' name='federated.18h3b8f1e1hoz612us7fa0qcrkbv' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18h3b8f1e1hoz612us7fa0qcrkbv'>
+            <column datatype='integer' name='[AQI Value]' role='measure' type='quantitative' />
+            <column caption='City1' datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[AQI Value]' derivation='Sum' name='[sum:AQI Value:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[none:City:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='AVG([AQI Value])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:City:nk]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[none:City:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='color' value='#000000' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-color' value='#ff9d9a' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='381' />
+                <format attr='maxwidth' value='381' />
+                <format attr='minheight' value='200' />
+                <format attr='maxheight' value='200' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[none:City:nk]</rows>
+        <cols>[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[sum:AQI Value:qk]</cols>
+      </table>
+      <simple-id uuid='{20FA00E3-ED6B-4298-B209-4636517F740B}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Global Air Quality Dashboard '>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Global Air Quality Dashboard </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#86bf9674' />
+        </style-rule>
+      </style>
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Dataset_1[Cleaned]' name='federated.18h3b8f1e1hoz612us7fa0qcrkbv' />
+      </datasources>
+      <datasource-dependencies datasource='federated.18h3b8f1e1hoz612us7fa0qcrkbv'>
+        <column caption='City1' datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+        <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98120' id='21' param='vert' type-v2='layout-flow' w='99034' x='483' y='940'>
+            <zone fixed-size='38' h='5405' id='22' is-fixed='true' type-v2='title' w='99034' x='483' y='940'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='92715' id='19' param='vert' type-v2='layout-flow' w='99034' x='483' y='6345'>
+              <zone h='92715' id='17' param='vert' type-v2='layout-flow' w='99034' x='483' y='6345'>
+                <zone h='92715' id='7' param='horz' type-v2='layout-flow' w='99034' x='483' y='6345'>
+                  <zone h='92715' id='5' type-v2='layout-basic' w='89378' x='483' y='6345'>
+                    <zone h='51852' id='3' name='Global AQI Map' w='54798' x='483' y='6345'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='40863' id='9' name='Top 10 Most Polluted Cities' w='32829' x='483' y='58197'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='40863' id='13' name='City-wise Pollutant Concentration' w='56549' x='33312' y='58197'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='51852' id='14' name='AQI Distributed Chart' w='34580' x='55281' y='6345'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                  <zone fixed-size='160' h='92715' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='9656' x='89861' y='6345'>
+                    <zone h='8578' id='8' name='Global AQI Map' pane-specification-id='0' param='[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[sum:AQI Value:qk]' type-v2='color' w='9656' x='89861' y='6345'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='15159' id='10' mode='typeinlist' name='Top 10 Most Polluted Cities' param='[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[none:City:nk]' type-v2='filter' values='cascading' w='9656' x='89861' y='14923'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='18331' id='15' name='AQI Distributed Chart' pane-specification-id='1' param='[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[none:AQI Category:nk]' type-v2='color' w='9656' x='89861' y='30082'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{AEFFE754-36F8-407F-A4AD-C6CA95BCBEAE}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='63'>
+    <window class='worksheet' name='Global AQI Map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[sum:AQI Value:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6C4075F6-028E-4056-BF19-F872114018AC}' />
+    </window>
+    <window class='worksheet' name='Top 10 Most Polluted Cities'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='typeinlist' param='[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[none:City:nk]' type='filter' values='cascading' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2B090637-86BA-410F-8708-3DA9A5C8B378}' />
+    </window>
+    <window class='worksheet' name='AQI Distributed Chart'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[none:AQI Category:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{E8D8C5BE-6E29-433B-BD36-0E07E3C88F84}' />
+    </window>
+    <window class='worksheet' name='City-wise Pollutant Concentration'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.18h3b8f1e1hoz612us7fa0qcrkbv].[none:AQI Category:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{70F12F80-DBCC-419B-9533-C741EB0F6C55}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Global Air Quality Dashboard '>
+      <viewpoints>
+        <viewpoint name='AQI Distributed Chart'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='City-wise Pollutant Concentration'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Global AQI Map'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top 10 Most Polluted Cities' />
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{69E0CE13-D909-464A-AC3F-268C1F2A4553}' />
+    </window>
+  </windows>
+</workbook>
